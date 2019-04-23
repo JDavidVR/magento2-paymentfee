@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="sales_model_service_quote_submit_before">
+	    <observer name="prince_paymentfee_quote_submit_before" instance="Prince\Paymentfee\Observer\AfterOrder" />
+	</event>
+	<event name="payment_cart_collect_items_and_amounts">
+		<observer name="prince_paymentfee_payment_collect_total" instance="Prince\Paymentfee\Observer\AddPaymentfeeItem" />
+	</event>
+</config>

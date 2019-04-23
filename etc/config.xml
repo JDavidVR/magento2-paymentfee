@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <paymentfee>
+            <general>
+                <active>1</active>
+                <title>Payment Fee</title>
+                <zeropaymentfee>0</zeropaymentfee>
+                <is_description>1</is_description>
+                <description>Test Payment Fee Description</description>
+            </general>
+            <paymentfee_settings>
+                <pricetype>0</pricetype>
+                <minorderamount>999999</minorderamount>
+                <default_fee>0</default_fee>
+                <customers>0,1,2,3,4</customers>
+            </paymentfee_settings>
+        </paymentfee>
+    </default>
+</config>

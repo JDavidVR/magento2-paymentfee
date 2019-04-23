@@ -1,0 +1,15 @@
+<!-- ko if: isDisplayed() -->
+<!-- ko if: hideZeroPaymentFee() -->
+<tr class="totals fee excl">
+    <th class="mark" scope="row">
+        <span class="label" data-bind="i18n: title"></span>
+        <!-- ko if: getDescription() -->
+        <span class="value" data-bind="text: getDescription()"></span>
+        <!-- /ko -->
+    </th>
+    <td class="amount">
+        <span class="price" data-bind="text: getValue()"></span>
+    </td>
+</tr>
+<!-- /ko -->
+<!-- /ko -->
