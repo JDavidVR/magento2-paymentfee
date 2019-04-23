@@ -23,3 +23,17 @@ Want to contribute to this extension? The quickest way is to <a href="https://he
 # Support
 
 If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-paymentfee/issues">open an issue</a> on GitHub.
+
+# Screenshots
+
+<b>Checkout Page</b>
+
+<img src="https://raw.githubusercontent.com/mageprince/all-module-screenshots/master/PaymentFee/Checkout.png" />
+
+<b>Configuration General Settings</b>
+
+<img src="https://raw.githubusercontent.com/mageprince/all-module-screenshots/master/PaymentFee/configuration_1.png" />
+
+<b>Configuration Payment Fee Settings</b>
+
+<img src="https://raw.githubusercontent.com/mageprince/all-module-screenshots/master/PaymentFee/configuration_2.png" />
